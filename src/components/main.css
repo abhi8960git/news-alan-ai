@@ -1,0 +1,27 @@
+/* @font-face {
+    font-family: Varela Round;
+    src: url('../assets/Varela_Round/Varela_Round/a.ttf');
+} */
+
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    gap:20px;
+    
+}
+
+.news-box{
+    /* border:1px solid black; */
+    box-shadow: 10px 15px 15px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    text-align: justify;
+    padding: 5px;
+}
+.image{
+    width: 100%;
+}
+
+.title{
+    font-weight: 900;
+}
